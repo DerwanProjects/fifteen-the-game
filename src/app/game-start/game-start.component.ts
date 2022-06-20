@@ -101,7 +101,7 @@ export class GameStartComponent implements OnInit {
   }
 
   dropHandler(event: { target: HTMLDivElement; }) {
-      // 1. usuwana jest klasa 'empty' z elementu pierwotnie zawierającego klasę 'empty'
+      // 1. usuwana jest klasa 'empty' z elementu pierwotnie zawierającego klasę 'empty' ...
       this.empty.classList.remove('empty');
       this.removeListenersFromEmpty();
       // 2. dodawana jest klasa empty do rodzica elementu który wywołał wykonanie eventu
